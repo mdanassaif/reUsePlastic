@@ -1,0 +1,70 @@
+{
+  "services" : [
+  {
+    "id": 1,
+    "title": "Reusable Shopping Bag",
+    "slug": "reusable-shopping-bag",
+    "desc": "Say goodbye to single-use plastic bags with our reusable shopping bag. Made from recycled plastic fibers, it's sturdy, spacious, and environmentally friendly.",
+    "price": 5.99,
+    "founder": "EcoSolutions Inc.",
+    "isPremium": false,
+    "image": "/photaas/img1.jpg",
+    "reuse_plastic_context": "Our shopping bag is a sustainable alternative to disposable plastic bags. By using this bag, you're helping to reduce the amount of plastic waste that ends up in landfills and oceans."
+  },
+  {
+    "id": 2,
+    "title": "Recycled Plastic Desk Organizer",
+    "slug": "recycled-plastic-desk-organizer",
+    "desc": "Keep your workspace tidy and eco-friendly with our recycled plastic desk organizer. It's compact, versatile, and perfect for storing pens, papers, and other office essentials.",
+    "price": 12.99,
+    "founder": "GreenDesk Solutions",
+    "isPremium": false,
+    "image": "/photaas/img2.jpg",
+    "reuse_plastic_context": "This desk organizer is made from recycled plastic materials, helping to reduce the environmental impact of plastic waste. Choose sustainable office accessories for a greener workplace."
+  },
+  {
+    "id": 3,
+    "title": "Reusable Food Storage Containers",
+    "slug": "reusable-food-storage-containers",
+    "desc": "Say goodbye to disposable plastic containers with our reusable food storage set. Made from durable BPA-free plastic, these containers are microwave and dishwasher safe.",
+    "price": 19.99,
+    "founder": "FreshEco Goods",
+    "isPremium": false,
+    "image": "/photaas/img3.jpg",
+    "reuse_plastic_context": "These food storage containers are designed for repeated use, reducing the need for single-use plastic packaging. Make the switch to reusable containers for a more sustainable kitchen."
+  },
+  {
+    "id": 4,
+    "title": "Recycled Plastic Smartphone Case",
+    "slug": "recycled-plastic-smartphone-case",
+    "desc": "Protect your phone and the planet with our recycled plastic smartphone case. It's slim, lightweight, and made from post-consumer recycled plastic.",
+    "price": 9.99,
+    "founder": "EcoTech Accessories",
+    "isPremium": true,
+    "image": "/photaas/img4.jpg",
+    "reuse_plastic_context": "Our smartphone case is crafted from recycled plastic, reducing the demand for new plastic materials. Choose eco-friendly accessories to minimize your environmental footprint."
+  },
+  {
+    "id": 5,
+    "title": "Premium Recycled Plastic Sunglasses",
+    "slug": "premium-recycled-plastic-sunglasses",
+    "desc": "Shield your eyes in style with our premium recycled plastic sunglasses. Each pair is made from reclaimed plastic waste, offering UV protection and a fashion-forward look.",
+    "price": 29.99,
+    "founder": "EcoFashion Co.",
+    "isPremium": true,
+    "image": "/photaas/img5.jpg",
+    "reuse_plastic_context": "These sunglasses are not only fashion-forward but also eco-friendly, made from recycled plastic materials. Support sustainable fashion and reduce plastic waste with every purchase."
+  },
+  {
+    "id": 6,
+    "title": "Reusable Stainless Steel Water Bottle",
+    "slug": "reusable-stainless-steel-water-bottle",
+    "desc": "Stay hydrated on the go with our reusable stainless steel water bottle. It's durable, leak-proof, and free from harmful chemicals. Say no to single-use plastic bottles!",
+    "price": 24.99,
+    "founder": "GreenLife Innovations",
+    "isPremium": true,
+    "image": "/photaas/img6.jpg",
+    "reuse_plastic_context": "Although not made from plastic, our stainless steel water bottle is a sustainable alternative to single-use plastic bottles. Choose reusable options to reduce plastic waste and protect the environment."
+  }
+]
+}
