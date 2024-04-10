@@ -2,18 +2,15 @@
 import React, { useState, useRef, useEffect } from "react";
 import { LayoutGrid } from "../../components/ui/layout-grid";
 
-
 const page = () => {
- 
     return (
       <div className="h-screen py-20 w-full">
         <LayoutGrid cards={cards} />
       </div>
     );
-  
 }
 
-export default page
+export default page;
 
 const SkeletonOne = () => {
   return (
@@ -41,6 +38,7 @@ const SkeletonTwo = () => {
     </div>
   );
 };
+
 const SkeletonThree = () => {
   return (
     <div>
@@ -53,6 +51,7 @@ const SkeletonThree = () => {
     </div>
   );
 };
+
 const SkeletonFour = () => {
   return (
     <div>
@@ -72,7 +71,7 @@ const SkeletonFive = () => {
       <p className="font-bold text-4xl text-white">Mountains are majestic</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Living near mountains offers breathtaking views and a sense of awe. It's
+        Living near mountains offers breathtaking views and a sense of awe. It&apos;s
         the perfect escape from the hustle and bustle of everyday life.
       </p>
     </div>
@@ -85,7 +84,7 @@ const SkeletonSix = () => {
       <p className="font-bold text-4xl text-white">Forests are enchanting</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        There's something magical about the tranquility of the forest. It's a
+        There&apos;s something magical about the tranquility of the forest. It&apos;s a
         place where you can reconnect with nature and find inner peace.
       </p>
     </div>
@@ -138,7 +137,7 @@ const SkeletonTen = () => {
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Living near a lake offers opportunities for fishing, boating, and
-        enjoying nature's tranquility.
+        enjoying nature&apos;s tranquility.
       </p>
     </div>
   );
@@ -169,9 +168,6 @@ const SkeletonTwelve = () => {
     </div>
   );
 };
-
-
-// Similarly, you can create SkeletonSeven, SkeletonEight, and so on...
 
 
 const cards = [

@@ -1,9 +1,7 @@
-'use client';
-
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
-function page() {
+function Page() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -20,7 +18,7 @@ function page() {
           Contact Us
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-        We&apos;re here to help with questions about our plastic recycling services, programs, or events. Reach out and let us know how we can assist you.
+          We&apos;re here to help with questions about our plastic recycling services, programs, or events. Reach out and let us know how we can assist you.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
@@ -51,4 +49,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
