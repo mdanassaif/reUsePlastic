@@ -22,21 +22,21 @@ const Navbar = ({ className }: { className?: string }) => {
             item="Home"
           ></MenuItem>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/about"}>
           <MenuItem
             setActive={setActive}
             active={active}
             item="About"
           ></MenuItem>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/contact"}>
           <MenuItem
             setActive={setActive}
             active={active}
             item="Contact"
           ></MenuItem>
         </Link>
-        <Link href={"/"}>
+        <Link href={"data/"}>
         <MenuItem setActive={setActive} active={active} item="Data"></MenuItem>
         </Link>
         {/* <MenuItem setActive={setActive} active={active} item="Data"> */}
