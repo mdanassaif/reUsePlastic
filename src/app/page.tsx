@@ -15,10 +15,12 @@ export default function Home() {
 
     <HeroSection/>
     {/* <Belowhero/> */}
+    <Feature/>
     <WhyUs/>
     {/* <Testing/> */}
+    {/* <TestimonialCards/> */}
+
     <TestimonialCards/>
-    <Feature/>
     <Team/>
     <Footer/>
    </main>
