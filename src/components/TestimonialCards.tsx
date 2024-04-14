@@ -1,40 +1,41 @@
 'use client'
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
-const musicSchoolTestimonials = [
-    {
-      quote:
-        'Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!',
-      name: 'Alex Johnson',
-      title: 'Guitar Student',
-    },
-    {
-      quote:
-        "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
-      name: 'Samantha Lee',
-      title: 'Piano Student',
-    },
-    {
-      quote:
-        "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
-      name: 'Michael Chen',
-      title: 'Vocal Student',
-    },
-    {
-      quote:
-        'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.',
-      name: 'Emily Taylor',
-      title: 'Violin Student',
-    },
-    {
-      quote:
-        'The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!',
-      name: 'Chris Morales',
-      title: 'Music Production Student',
-    },
-  ];
+const circl8Testimonials = [
+  {
+    quote:
+      'Partnering with Circl8 has revolutionized our sustainability efforts. Their efficient plastic collection and redistribution system have significantly reduced our environmental footprint.',
+    name: 'Emily Adams',
+    title: 'Supply Chain Manager, XYZ Company',
+  },
+  {
+    quote:
+      "Circl8's platform has made it incredibly easy for us to contribute to the circular economy. Knowing that our recycled plastic is being repurposed by other companies motivates us to recycle even more.",
+    name: 'John Smith',
+    title: 'Environmental Coordinator, ABC Corporation',
+  },
+  {
+    quote:
+      "We've been using Circl8's services for years now, and they've consistently exceeded our expectations. Their dedication to sustainability is truly commendable.",
+    name: 'Sarah Thompson',
+    title: 'Procurement Director, DEF Industries',
+  },
+  {
+    quote:
+      "Circl8 not only helps us manage our plastic waste effectively but also provides valuable insights into our recycling practices. It's a win-win for us and the environment.",
+    name: 'David Brown',
+    title: 'Operations Manager, GHI Manufacturing',
+  },
+  {
+    quote:
+      "Thanks to Circl8, we've been able to meet our sustainability goals ahead of schedule. Their innovative approach to plastic recycling sets them apart in the industry.",
+    name: 'Michelle Garcia',
+    title: 'CEO, JKL Enterprises',
+  },
+];
 
-function MusicSchoolTestimonials() {
+
+function Circl8Testimonials() {
   return (
     <div className="h-[40rem] w-full bg-white bg-dot-[#2962ff]/[1] relative flex flex-col items-center justify-center overflow-hidden">
         <h2 className="text-3xl font-bold text-center mb-8 z-10 text-[#12539e]">Hear our Harmony: Voices of success</h2>
@@ -42,7 +43,7 @@ function MusicSchoolTestimonials() {
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
             <div className="w-full max-w-6xl">
             <InfiniteMovingCards
-                items={musicSchoolTestimonials}
+                items={circl8Testimonials}
                 direction="right"
                 speed="slow"
       />
@@ -53,4 +54,4 @@ function MusicSchoolTestimonials() {
   )
 }
 
-export default MusicSchoolTestimonials
+export default Circl8Testimonials
