@@ -108,8 +108,8 @@ const content = [
 
 const WhyUs = () => {
   return (
-    <div className="bg-black">
-      <h1 className="text-4xl text-center  text-white p-20 font-bold">Why Choose Us?</h1>
+    <div className="bg-[#aed8fa] h-auto md:h-[40rem]">
+      <h1 className="text-5xl text-center  text-black p-20 font-bold">Why Choose Us?</h1>
 
       <StickyScroll content={content}/>
     </div>

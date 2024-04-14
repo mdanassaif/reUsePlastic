@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
+
+
+
 const transition = {
   type: "spring",
   mass: 0.5,
@@ -27,9 +30,9 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
-        style={{ fontFamily: 'Roboto, sans-serif',
-fontSize: '16px', fontWeight: 'semibold' }}
+        className="cursor-pointer text-black-[#0a2e58] hover:opacity-[0.9] dark:text-[#0a2e58]"
+        style={{ fontFamily: 'Georgia, sans-serif',
+fontSize: '18px', fontWeight: '500' }}
       >
         {item}
       </motion.p>
@@ -71,7 +74,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full boder border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 items-center"   style={{ height: '40px' }}
+      className="relative rounded-full boder border-transparent dark:bg-[#aed8fa] dark:border-white/[0.2] bg-[#aed8fa] shadow-input flex justify-center space-x-4 px-8 items-center"   style={{ height: '40px' }}
     >
       {children}
     </nav>

@@ -38,7 +38,7 @@ export const AnimatedTooltip = ({
     <>
       {items.map((item, idx) => (
         <div
-          className="-mr-4  relative group"
+        className={`relative group${idx !== 0 ? ' ml-0' : ''}${idx !== items.length - 1 ? ' mr-8' : ''}`} 
           key={item.name}
           onMouseEnter={() => setHoveredIndex(item.id)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -75,7 +75,7 @@ export const AnimatedTooltip = ({
           )}
           <div
             onMouseMove={handleMouseMove}
-            className="w-14 h-14 border-2 group-hover:scale-105 group-hover:z-30 border-white bg-cover relative transition duration-500"
+            className="w-20 h-20 border-2 group-hover:scale-105 group-hover:z-30 border-white bg-cover relative transition duration-500 rounded-full"
             style={{
               backgroundImage: `url(${item.image})`,
               filter: `grayscale(${hoveredIndex === item.id ? "0%" : "100%"})`, // Add grayscale effect on non-hovered images

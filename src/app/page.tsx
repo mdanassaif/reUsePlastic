@@ -1,12 +1,12 @@
 import HeroSection from "@/components/HeroSection";
 import TestimonialCards from "@/components/TestimonialCards";
 import WhyUs from "@/components/WhyUs";
-import Belowhero from "@/components/BelowHero";
+// import Belowhero from "@/components/BelowHero";
 import Feature from "@/components/Features";
 // import Image from "next/image";
-import Team from "@/components/Team";
+// import Team from "@/components/Team";
 import Footer from "@/components/Footer";
-import Testing from "@/components/Testing";
+// import Testing from "@/components/Testing";
  
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
     {/* <TestimonialCards/> */}
 
     <TestimonialCards/>
-    <Team/>
+    {/* <Team/> */}
     <Footer/>
    </main>
   );

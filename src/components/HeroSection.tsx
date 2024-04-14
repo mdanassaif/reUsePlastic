@@ -19,10 +19,11 @@ const HeroSection = () => {
     </div>
 
     <div className="mt-4 flex space-x-10">
-  <Link href={'#'}>
+
+    <Link href={'#'}>
     <Button
       borderRadius="1.75rem"
-      className="border-transparent px-6 py-2 bg-gradient-to-br from-neutral to-neutral-200 text-black rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-white"
+      className="border-transparent px-6 py-2 bg-gradient-to-br from-neutral to-neutral-200 text-white text-lg rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-[#133774] font-semibold"
     >
       Book A Call
     </Button>
@@ -30,11 +31,14 @@ const HeroSection = () => {
   <Link href={'#'}>
     <Button
       borderRadius="1.75rem"
-      className="border-transparent px-6 py-2 bg-gradient-to-br from-neutral to-neutral-200 text-neutral rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-red-500"
+      className="border-transparent px-6 py-2 bg-gradient-to-br from-neutral to-neutral-200 text-black text-lg rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-white font-semibold"
     >
-      Book A Call
+      Play A Video
     </Button>
   </Link>
+
+  
+ 
 </div>
 
     </div>
